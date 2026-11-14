@@ -12,6 +12,8 @@
  */
 declare (strict_types = 1);
 
+namespace Sharky\Annotation;
+
 #[\Attribute(\Attribute::TARGET_CLASS | \Attribute::TARGET_METHOD)]
 class Permission extends BaseAnnotation
 {
